@@ -1,0 +1,32 @@
+{
+    "name": "makedgt",
+    "description": "xray websocket proxy on heroku",
+    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "Deploy app",
+            "value": "持yu"
+        },
+        "AUUID": {
+            "value": "a455523c-cbe6-4596-b200-ecc19de70f40"
+        },
+        "CADDYIndexPage": {            
+            "value": "https://github.com/ripienaar/free-for-dev/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "value": "https://raw.githubusercontent.com/gfygub/makedgt/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "value": "https://raw.githubusercontent.com/gfygub/makedgt/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "value": "https://raw.githubusercontent.com/gfygub/makedgt/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/gfygub/makedgt",
+    "repository": "https://github.com/gfygub/makedgt",
+    "stack": "container"
+}
